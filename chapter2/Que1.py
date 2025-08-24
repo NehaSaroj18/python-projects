@@ -9,7 +9,7 @@ a=34
 b=5
 print("Remainder when a is divided by b: ", a % b)
 
-# 3. Check the type of variable assigned using input () function. 
+# 3. Check the type of variable assigned using input () function. git 
 
 a = input("enter value of a:")
 print(type(a))
