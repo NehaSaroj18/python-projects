@@ -1,17 +1,17 @@
 # 1. Write a program to create a dictionary of Hindi words with values as their English 
 # translation. Provide user with an option to look it u
 
-# words = {
-#     "namste":"hello",
-#     "chai":"tea",
-#     "panipuri":"water balls",
-#     "aankhe":"eyes"
-# }
+words = {
+    "namste":"hello",
+    "chai":"tea",
+    "panipuri":"water balls",
+    "aankhe":"eyes"
+}
 
-# word = input("enetr the word for english translation :")
-# print(words[word])
+word = input("enetr the word for english translation :")
+print(words[word])
 
- #by this if user enter input namste they will gate hello 
+#by this if user enter input namste they will gate hello 
 #there is some issues that we have to take exact values  as given in key while taking user iput we can't give sapce 
 #otherwisw this will give error
 
@@ -20,41 +20,41 @@
 # numbers (once).
 
 
-# s=set()
+s=set()
 
-# number = int(input("Enter eight numbers"))
-# s.add(number)
-# number = int(input("Enter eight numbers"))
-# s.add(number)
-# number = int(input("Enter eight numbers"))
-# s.add(number)
-# number = int(input("Enter eight numbers"))
-# s.add(number)
-# number = int(input("Enter eight numbers"))
-# s.add(number)
-# number = int(input("Enter eight numbers"))
-# s.add(number)
-# number = int(input("Enter eight numbers"))
-# s.add(number)
-# number = int(input("Enter eight numbers"))
-# s.add(number)
+number = int(input("Enter eight numbers"))
+s.add(number)
+number = int(input("Enter eight numbers"))
+s.add(number)
+number = int(input("Enter eight numbers"))
+s.add(number)
+number = int(input("Enter eight numbers"))
+s.add(number)
+number = int(input("Enter eight numbers"))
+s.add(number)
+number = int(input("Enter eight numbers"))
+s.add(number)
+number = int(input("Enter eight numbers"))
+s.add(number)
+number = int(input("Enter eight numbers"))
+s.add(number)
 
-# print(s)
+print(s)
 
 # 3. Can we have a set with 18 (int) and '18' (str) as a value in it?
 
-# s = set()
-# s.add(18)
-# s.add("18")
+s = set()
+s.add(18)
+s.add("18")
 
-# print(s) # this will add both because one is int and other is string
+print(s) # this will add both because one is int and other is string
 
 
 # What will be the length of following set s: 
-# s = set() 
-# s.add(20) 
-# s.add(20.0) 
-# s.add('20') # length of s after these operations?
+s = set() 
+s.add(20) 
+s.add(20.0) 
+s.add('20') # length of s after these operations?
 
 s = set() 
 s.add(20) 
