@@ -100,5 +100,15 @@
 n=int(input("Enter number : "))
  
 for i in range(1, 11):
-    print(f"The table {n}x{i} = {n*i} ")
+    print(f"The table {n}x{11 -i} = {n*(11-i)} ") # 11 - i  iske liye kiya hai kyuki 
+    # 1  10 = 11 i.e 11-1=10
+    # 2  9  = 11     11-2=9
+    # 3  8  = 11
+    # 4  7
+    # 5  6
+    # 6  5
+    # 7  4
+    # 8  3
+    # 9  2
+    # 10 1
     
