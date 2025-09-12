@@ -25,7 +25,7 @@ c=9
 print(gratest(a,b,c))
 
 # 2. Write a python program using function to convert Celsius to Fahrenheit. 
-c=5*(f-32)/9
+# c=5*(f-32)/9
 
 def f_to_c(f):
     return 5*(f-32)/9
@@ -99,7 +99,7 @@ print(f"the coreespoinding value in cms is :  {inch_to_cms(n)}")
 
 
 
-
+ 
 def rem(l,word):
     n=[]
     for item in l:
