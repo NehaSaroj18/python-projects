@@ -24,7 +24,10 @@ engine.runAndWait()
 #list all the files in directory by import os and using listdir
 
 # 5. Label the program written in problem 4 with comments. git pull origin main
+# git init
 # git add .
 # git commit -m "Initial commit"
 # git branch -M main
+# git remote add origin https://github.com/yourusername/repo-name.git
 # git push -u origin main
+
